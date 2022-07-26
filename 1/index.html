@@ -5,7 +5,7 @@
     <title> Коршак Наталія УЗД </title>
     <meta name="keywords" content="коршак, коршак наталія, узд, узи, узд, рівне, узи ровно, узд рівне, ультразвукова діагностика, коршак наталія віталіївна, печінка, нирки, судини, обстеження, вени, артерії, голова, кінцівки, пухлини, опухоли, печень, почки, сосуды, железа, молочні, шитовидка, простата, камни, камінці, камни в почках, камінці в нирках, жовчний, суставы, суглоби, м'язи, звязки, мініски, сухожилля, ноги, руки, пальці, тіло, корпус, поясниця, коліна, коліно, плечі, шия, тромби, атеросклероз, аневризми">
     <meta name="description" content="Кабінет ультразвукової діагностики м. Рівне">
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="mainstyle.css">
 </head>
@@ -13,44 +13,44 @@
 <body>
     <script src="script.js"></script>
     <header class="head">
-        <div class="wrapper responsive">
-            <div class="logos">
-                <center>
-                    <img src="logo2.webp" alt="logo" class="logo">
-                </center>
+        <div>
+            <div id="logos">
+                <img src="logo-01.jpg" alt="logo" id="logo">
             </div>
         </div>
-        <div class="">
-            <h1 class="title">Кабінет УЗД Коршак Наталії</h1>
-        </div>
+        <h1 id="title">Кабінет УЗД <br> Коршак Наталії</h1>
     </header>
-    <div class="hwrap">
-        <div class="hmove">
-            <div class="hitem">Працюємо під час карантину та червоної зони за попереднім записом</div>
-            <div class="hitem">Години роботи: від 9:00 до 16:00</div>
-            <div class="hitem">Працюємо під час карантину та червоної зони за попереднім записом</div>
-            <div class="hitem">Години роботи: від 9:00 до 16:00</div>
-            <div class="hitem">Працюємо під час карантину та червоної зони за попереднім записом</div>
-            <div class="hitem">Години роботи: від 9:00 до 16:00</div>
-        </div>
-    </div>
-    <center>
-        <h1 class="main">Головна сторінка</h1>
-        <div class="box">
-            <h2 class="main">Запис</h2>
-            <div class="wrapper responsive">
-                <div>
-                    <p id="number"> За номером телефону: +38(098)813-89-42</p>
-                    <p id="number"> Години роботи від 9:00 до 16:00 </p>
+        <h2 class="main">Запис</h2>
+
+        <div class="container__hours">
+            <!-- Column -->
+            <div class="container__column__hours">
+                <!-- Cover -->
+                    <img src="phone-1.jpg" class="hours">
+                <!-- Content -->
+                <div class="container__content__hours">
+                    <p class="number"> За номером телефону: <br>098 813-89-42</p>
                 </div>
             </div>
-            <h2 class="main">Коротка інформація</h2>
-            <div class="container_grid wrapper">
-                <div>
-                    <p style="font-weight: bold;" class="main_text"> <img src="photo1.webp" alt="photo1" class="human" id="img_wrapper"> Коршак Наталія Віталіївна <br>Лікар ультразвукової діагностики вищої категорії</p>
 
+            <!-- Repeat with other columns -->
+            <div class="container__column__hours">
+                <!-- Cover -->
+                <img src="clock_1.jpg" class="hours">
+                <!-- Content -->
+                <div class="container__content__hours">
+                    <p class="number"> Години роботи <br> від 9:00 до 15:00 </p>
                 </div>
+            </div>
+        </div>
+
+        <h2 class="main">Коротка інформація</h2>
+        <div class="wrapper__human">
+            <div>
+            <img src="photo1.webp" alt="photo1" class="human">
+
                 <div class="main_text">
+                    <p class="nataliia"> Коршак Наталія Віталіївна</p>
                     <p> Лікар ультразвукової діагностики вищої категорії з 25-річним стажем.</p>
                     <p>Володіє методиками обстеження органів черевної порожнини, нирок, сечового міхура, щитоподібної залози, молочних залоз, пухлин м`яких тканин різної локалізації, наднирників, м`язево-звязкових структур суглобів, судин брахіоцефальної
                         ділянки, верхніх та нижніх кінцівок.</p>
@@ -60,114 +60,28 @@
                     <p>З 2011 року - фізична особа-підприємець.</p>
                 </div>
             </div>
-            <h2 class="main">Адреса</h2>
-            <div class="container_grid wrapper" id="container_adress">
-                <div>
-                    <p id="addres">м. Рівне. <br>Вул Карнаухова 25а (Мірющенка), <br>Центральна міська лікарня, <br>терапевтичний корпус, 1 поверх, <br>кабінет №121</p>
-                </div>
-                <div><img src="corp.webp" alt="corp" id="build"></div>
+        </div>
+
+        <h2 class="main">Адреса</h2>
+        <div class="wrapper__human" >
+            <div>
+                <img src="corp.webp" alt="corp" id="build">
+
+            <div>
+                <p id="addres">м. Рівне. Вул Карнаухова 25а (Мірющенка), <br> Центральна міська лікарня, терапевтичний корпус, <br> 1 поверх, кабінет №121</p>
             </div>
-
-            <h2 class="main">Цінові категорії</h2>
-            <center>
-                <div id="prise">
-                    <p class="center list_header">Загальні обстеження</p>
-                    <ul class="dotted">
-                        <li> <span>Органів черевної порожнини комплексно <br> (печінка, жовчний міхур, підшлункова залоза, селезінка)</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Органів черевної порожнини + нирок </span><span>300 грн.</span></p>
-                        </li>
-                        <li> <span>Нирок</span>
-                            <span>200 грн.</span></p>
-                        </li>
-                        <li> <span>Наднирників</span>
-                            <span>200 грн.</span></p>
-                        </li>
-                        <li> <span>Одного органу черевної порожнини</span>
-                            <span>200 грн.</span></p>
-                        </li>
-                        <li> <span>Органів малого тазу чоловіків</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Органів малого тазу + нирки</span>
-                            <span>350 грн.</span></p>
-                        </li>
-                        <li> <span>Молочних залоз</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Щитоподібної залози</span>
-                            <span>200 грн.</span></p>
-                        </li>
-                        <li> <span>Плевральних синусів</span>
-                            <span>200 грн.</span></p>
-                        </li>
-                        <li> <span>Регіональних лімфатичних вузлів</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Пухлиноподібних (об'ємних) утворів з кольоровою<br> доплерографією</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>М'язево-звязковий структур 1 суглоба <br> (плечевий, ліктьовий, променево-зап'ястний, колінний, <br>гомілково-ступневий)</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>М'язево-звязкових структур 2 суглобів</span>
-                            <span>400 грн.</span></p>
-                        </li>
-                    </ul>
-
-                    <p class="center list_header">Обстеження судин</p>
-                    <ul class="dotted">
-                        <li> <span>Дуплексне сканування судин шиї та голови<br> (екстракраніальний відділ)</span>
-                            <span>300 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування черевного відділу аорти</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування судин нирок</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування судин (вени та артерії)<br> нижніх або верхніх кінцівок</span>
-                            <span>450 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування вен однієї кінцівки</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування артерій однієї кінцівки</span>
-                            <span>250 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування вен і артерій однієї кінцівки</span>
-                            <span>300 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування вен обох нижніх або верхніх кінцівок</span>
-                            <span>350 грн.</span></p>
-                        </li>
-                        <li> <span>Дуплексне сканування артерій обох нижніх або <br> верхніх кінцівок</span>
-                            <span>300 грн.</span></p>
-
-                        </li>
-                        <li> <span>Дуплексне сканування судин однієї кінцівки (вени або артерії)<br>+ клубкові судини(вени або артерії)</span>
-                            <span>300 грн.</span></p>
-                        </li>
-
-                        <li> <span>Дуплексне сканування судин обох нижніх кінцівок<br> (вени або артерії) + клубкові судини(вени або артерії)</span>
-                            <span>450 грн.</span></p>
-                        </li>
-                    </ul>
-                    <p class="center list_header">
-                        ціни актуальні станом на 15.11.2021
-                    </p>
-                </div>
-            </center>
-            <h2 class="main">Запис</h2>
-            <div class="wrapper responsive">
-                <div>
-                    <p id="number">За номером телефону: +38(098)813-89-42</p>
-                </div>
             </div>
         </div>
+        <h2 class="main">Цінові категорії</h2>
+        <div  class="prise">
+            <img class="prise_img" src="prise-01.jpg"/>
+            <img class="prise_img" src="prise2-01.jpg"/>             
         </div>
-    </center>
+        <div>
+            <p class="center list_header">
+                ціни актуальні станом на 23.02.2022
+            </p>
+        </div>
     <footer>
         <p>All rights reserved by their respective owners <br> KU </p>
         <p>Contact about a mistake: dev@korshakultrasound.com </p>
